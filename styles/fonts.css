@@ -1,0 +1,61 @@
+@font-face {
+    font-family: 'Premier League';
+    src: url('../fonts/PremierLeague-Regular.eot');
+    src: url('../fonts/PremierLeague-Regular.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/PremierLeague-Regular.woff2') format('woff2'),
+        url('../fonts/PremierLeague-Regular.woff') format('woff'),
+        url('../fonts/PremierLeague-Regular.ttf') format('truetype'),
+        url('../fonts/PremierLeague-Regular.svg#PremierLeague-Regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Premier League Bold';
+    src: url('../fonts/PremierLeague-Bold.eot');
+    src: url('../fonts/PremierLeague-Bold.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/PremierLeague-Bold.woff2') format('woff2'),
+        url('../fonts/PremierLeague-Bold.woff') format('woff'),
+        url('../fonts/PremierLeague-Bold.ttf') format('truetype'),
+        url('../fonts/PremierLeague-Bold.svg#PremierLeague-Regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'dairy_milk_fontmedium';
+    src: url('../fonts/dairymilkfont-medium.eot');
+    src: url('../fonts/dairymilkfont-medium.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/dairymilkfont-medium.woff2') format('woff2'),
+         url('../fonts/dairymilkfont-medium.woff') format('woff'),
+         url('../fonts/dairymilkfont-medium.ttf') format('truetype'),
+         url('../fonts/dairymilkfont-medium.svg#dairy_milk_fontmedium') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'st_ryde_boldbold';
+    src: url('../fonts/stryde-bold.eot');
+    src: url('../fonts/stryde-bold.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/stryde-bold.woff2') format('woff2'),
+         url('../fonts/stryde-bold.woff') format('woff'),
+         url('../fonts/stryde-bold.ttf') format('truetype'),
+         url('../fonts/stryde-bold.svg#st_ryde_boldbold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'st_ryde_regularregular';
+    src: url('../fonts/stryderegular.eot');
+    src: url('../fonts/stryderegular.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/stryderegular.woff2') format('woff2'),
+         url('../fonts/stryderegular.woff') format('woff'),
+         url('../fonts/stryderegular.ttf') format('truetype'),
+         url('../fonts/stryderegular.svg#st_ryde_regularregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}

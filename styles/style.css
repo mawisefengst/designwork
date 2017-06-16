@@ -1,0 +1,769 @@
+.plfont{
+	 font-family: 'Premier League';
+}
+.plfontBold{
+	 font-family: 'Premier League Bold';
+}
+.dairyMilkFont{
+	font-family: 'dairy_milk_fontmedium';
+}
+.stRydeBold{
+	font-family: 'st_ryde_boldbold';
+}
+.stRydeRegular{
+	font-family: 'st_ryde_regularregular';
+}
+html,body{
+	height: 100%;
+}
+body{
+	font-family: 'Premier League';
+	color:white;
+	font-size: 20px;
+}
+.row{
+	max-width: inherit;
+}
+a,a:hover{
+	color: #ffffff;
+}
+.darkBg{
+	background: rgba(72,37,131,0.8);
+}
+.roundBorder{
+	border:10px solid #b68f69;
+	border-radius: 30px;
+	-webkit-box-shadow: 0px 0px 15px 1px rgba(50, 50, 50, 0.5);
+	-moz-box-shadow:    0px 0px 15px 1px rgba(50, 50, 50, 0.5);
+	box-shadow:         0px 0px 15px 1px rgba(50, 50, 50, 0.5);
+}
+
+.textAlignLeft{
+	text-align: left;
+}
+.textAlignCenter{
+	text-align: center;
+}
+.noticketTitle{
+	font-size: 14px;
+	line-height: 100%;
+}
+.centerDiv{
+	width: 75%;
+	margin: 0 auto;
+}
+
+.marginTop{
+	margin-top:10px;
+}
+.marginBottom{
+	margin-bottom:20px !important;
+}
+
+
+
+
+
+.Arsenal{
+	background-image: url("../images/assets/Team_logo_large_400/arsenal.png");
+}
+.Bournemouth{
+	background-image: url("../images/assets/Team_logo_large_400/Bournemouth.png");
+}
+.Burnley{
+	background-image: url("../images/assets/Team_logo_large_400/Burnley.png");
+}
+.Chelsea{
+	background-image: url("../images/assets/Team_logo_large_400/chelsea.png");
+}
+.C_Palace{
+	background-image: url("../images/assets/Team_logo_large_400/Crystal_Palace.png");
+}
+.Stoke{
+	background-image: url("../images/assets/Team_logo_large_400/Stoke_City.png");
+}
+.Sunderland{
+	background-image: url("../images/assets/Team_logo_large_400/sunderland.png");
+}
+.Southampton{
+	background-image: url("../images/assets/Team_logo_large_400/Southampton.png");
+}
+.Middlesbro{
+	background-image: url("../images/assets/Team_logo_large_400/Middlesbrough.png");
+}
+.Man_Utd{
+	background-image: url("../images/assets/Team_logo_large_400/Manchester_United.png");
+}
+.Man_City{
+	background-image: url("../images/assets/Team_logo_large_400/Manchester_City.png");
+}
+.liverpool{
+	background-image: url("../images/assets/Team_logo_large_400/liverpool.png");
+}
+.Leicester{
+	background-image: url("../images/assets/Team_logo_large_400/Leicester.png");
+}
+.Hull{
+	background-image: url("../images/assets/Team_logo_large_400/Hull.png");
+}
+.Everton{
+	background-image: url("../images/assets/Team_logo_large_400/everton.png");
+}
+.Swansea{
+	background-image: url("../images/assets/Team_logo_large_400/Swansea.png");
+}
+.Tottenham{
+	background-image: url("../images/assets/Team_logo_large_400/tottenham.png");
+}
+.Watford{
+	background-image: url("../images/assets/Team_logo_large_400/Watford.png");
+}
+.West_Brom{
+	background-image: url("../images/assets/Team_logo_large_400/West_Brom.png");
+}
+.West_Ham{
+	background-image: url("../images/assets/Team_logo_large_400/West_Ham.png");
+}
+/*page 4*/
+.borderTop{
+	border-top: 1px solid #ffffff;
+	line-height: 200%;
+}
+
+.myRadio{
+	display: inline-block;
+	margin-top: 4px;
+	position: relative;
+    top: -17px;
+    float: right;
+}
+
+.myRadio input {
+     /*display: none;
+    Better than display: none for accessibility reasons*/
+    position: relative;
+    z-index: -9999;
+    display: none;
+}
+
+.myRadio span {
+    width: 32px;
+    height: 32px;
+    display: block;
+    background: url("../images/output/checkbox.png") 0 top no-repeat transparent;
+    background-size: auto 74px;
+}
+
+.myRadio input:checked + span {
+    background-position: 0 bottom;
+}
+
+.underLine{
+	line-height: 120%;
+    border-bottom: 1px solid #ffffff;
+}
+
+.attendeeForm .roundButton{
+	margin: 60px 0 0 33px;
+    float: left;
+    width: 53%;
+}
+
+input[type="checkbox"]{
+	margin: 0;
+}
+
+.myCheckbox{
+	display: inline-block;
+	margin-top: 4px;
+	position: relative;
+	top:40px;
+}
+
+.myCheckbox input {
+     /*display: none;
+    Better than display: none for accessibility reasons*/
+    position: relative;
+    z-index: -9999;
+    display: none;
+}
+
+.myCheckbox span {
+    width: 27px;
+    height: 27px;
+    display: block;
+    background: url("../images/output/checkbox_2.png") 0 bottom no-repeat transparent;
+    float: left;
+    margin-right: 5px
+}
+
+.myCheckbox input:checked + span {
+    background-position: 0 top;
+}
+
+label.plfont{
+	color: #ffffff;
+	line-height: 100%;
+	text-align: left;
+	margin-top: 10px;
+}
+
+.confirmPostInfo{
+	font-size: 27px;
+}
+
+
+
+.confirmPost .roundButton{
+    padding: 1rem 1rem 1rem 1rem;
+    margin-right: 28px;
+}
+.roundButton.large{
+	padding: 1rem 1rem 1rem 1rem;
+}
+
+.confirmationWrapper div.mediem_team_logo{
+	width: 80px;
+	height: 80px;
+}
+
+.confirmationWrapper ul.ticketList{
+	height: 80px;
+}
+
+.confirmationWrapper  ul.ticketList li{
+	height: 100%;
+}
+
+.confirmationWrapper  ul.ticketList li,
+.confirmationWrapper  ul.ticketList li > span{
+	line-height: 80px;
+}
+.confirmationWrapper  .whiteBg{
+	padding: 15px 0;
+}
+.confirmationWrapper  .myRadio{
+	margin-top: 20px;
+}
+.confirmationWrapper  .myRadio span{
+	background-position: 0 bottom;
+}
+
+.matchLogo{
+	width: 360px;
+    height: 165px;
+    display: block;
+    background: url(../images/output/Match_logo.png) 0 0 no-repeat transparent;
+    background-size: 363px auto;
+    margin: 0 auto;
+}
+.singleCadbury{
+	width: 119px;
+}
+
+.marginTopLarge{
+	margin-top: 100px !important;
+}
+
+
+.marginTopMedium{
+	margin-top: 40px !important;
+}
+
+.confirmBtnWrapper{
+	margin-top: 100px !important;
+}
+
+.plStar{
+	width: 267px;
+    height: 234px;
+    display: block;
+    background: url(../images/output/PremiumLeagueLogo_Star.png) 0 0 no-repeat transparent;
+    background-size: 267px auto;
+    float: right;
+}
+.productImg{
+    width: 100%;
+    height: 545px;
+    display: block;
+    background: url(../images/output/product.png) 0 65% no-repeat transparent;
+    background-size: 100% auto;
+    float: right;
+}
+.fixedWidth{
+	width: 75%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.content{
+	background: url("../images/output/bg_mobile.jpg") center 0 no-repeat transparent;
+	width: 100%;
+	height: 100%;
+	background-size: auto 100%;
+}
+
+.contactFrom,.ticketTrackWrapper,.noTicketWrapper{
+	width: 90%;
+}
+
+.headerLogo{
+    background: url(../images/output/Cadbury_FC_Match_Logo.png) 0 0 no-repeat transparent;
+    width: 63%;
+    height: 56px;
+    margin: 13px auto 0;
+    background-size: contain;
+}
+
+.header{
+	background: #482583;
+	width: 100%;
+	height: 72px;
+	position: fixed;
+	top:0;
+	left: 0;
+	z-index: 99;
+}
+
+.formTitle{
+	font-size: 20px;
+}
+.stepTitle{
+	font-size: 16px;
+}
+.donationTitle{
+	font-size: 17px;
+}
+.formCaption{
+	font-size: 14px;
+	line-height: 100%;
+}
+
+.fieldLabel{
+	font-size: 15px;
+	text-align: left;
+	color: #ffffff;
+}
+
+input[type="text"].roundTextField{
+	height: 27px;
+	width: 78%;
+    margin: 10px auto;
+    border-radius: 30px;
+    font-family: 'st_ryde_regularregular';
+    font-size: 15px;
+    padding-left: 10px;
+}
+.attendeeForm input[type="text"].roundTextField{
+	margin: 0;
+	width: 88%;
+}
+.fieldLabel.marginTop{
+	margin-top: 15px !important;
+}
+.roundButton{
+    border-radius: 30px;
+    font-size: 16px;
+    background: transparent;
+    border: 3px solid #ffffff;
+    width: 160px;
+    padding: 0.25rem 1rem .25rem 1rem;
+}
+.roundButton:hover{
+	background: transparent;
+	opacity: 0.9;
+}
+
+.centeredArea{
+	margin:100px auto 70px;
+	text-align: center;
+}
+
+.plLogo{
+    background: url(../images/output/PremiumLeagueLogo.png) 0 0 no-repeat transparent;
+    width: 162px;
+    height: 30px;
+    position: fixed;
+    bottom: 13px;
+    left: 50%;
+    margin-left: -81px;
+    background-size: contain;
+}
+.splash{
+	background: url("../images/output/splash.png") 0 0 no-repeat transparent;
+    width: 157px;
+    height: 32px;
+    position: fixed;
+    bottom: 4px;
+    right: -1px;
+    background-size: contain;
+}
+.footer{
+	background: #482583;
+	width: 100%;
+	height: 50px;
+	position: fixed;
+	bottom:0;
+	left: 0;
+	border-bottom:4px solid #ffffff;
+}
+.emailWrapper{
+	position: fixed;
+    bottom: 18px;
+    left: 13px;
+    display: block;
+}
+.emailIcon{
+	background: url("../images/output/emailIcon.png") 0 0 no-repeat transparent;
+	width: 20px;
+	height: 20px;
+	float: left;
+	margin-right: 10px;
+	background-size: contain;
+}
+a.addressText{
+	display: none;
+}
+
+.genealWrapper{
+	text-align: center;
+	padding: 20px 0% 10px;
+}
+/* page 2 */
+.teamList > li{
+	float: left;
+    width: 29.333333%;
+    list-style: none;
+    margin-right: 4%;
+}
+.circleWhite{
+	background: #ffffff;
+	width: 100%;
+	height: 100%;
+	border-radius: 100%;
+	margin:30px auto 0 ;
+	padding: 9px 0 5px;
+	cursor: pointer;
+}
+.teamNm{
+	font-size: 14px;
+	text-align: center;
+}
+div.teamLogo{
+	width: 50px;
+	height: 50px;
+	margin: 0px auto;
+	display: block;
+	background-position: center 0;
+	background-color: transparent;
+	background-size: contain;
+	background-repeat: no-repeat;
+}
+.page_four_info1{
+	font-size: 15px;
+}
+.page_four_info2{
+	font-size: 14px;
+	line-height: 110%;
+}
+.marginRight{
+	margin-right: 0px;
+}
+.pinkBg{
+	background: url("../images/output/PremiumLeagueLogoTiny.png") center 3px no-repeat #e40053;
+	height: 30px;
+}
+
+
+
+.whiteBg{
+	background: #ffffff;
+	padding: 20px 0 10px;
+	color: #2a002e;
+}
+
+
+
+ul.ticketList{
+	list-style: none;
+	margin:0;
+	padding: 0;
+}
+
+ul.ticketList li{
+	font-size: 11px;
+	text-align: left;
+	height: inherit;
+	width: 95%;
+	padding-left: 5%;
+	float: left;
+}
+
+ul.ticketList li > span{
+	margin-right: 10px;
+    line-height: 20px;
+    display: inline-block;
+    float: left;
+}
+
+ul.ticketList li > span.teamInfo{
+	display: block;
+	float: none;
+}
+.noTicketTeamName{
+	font-size: 20px;
+	line-height: 54px;
+}
+
+div.mediem_team_logo{
+	width: 60px;
+	height: 60px;
+	margin: 0px auto;
+	display: block;
+	background-position: center 0;
+	background-color: transparent;
+	background-size: contain;
+	background-repeat: no-repeat;
+}
+
+.fixedHeight{
+	height: 90px;
+}
+
+
+/* Iphone 6 */
+@media only screen and (min-width: 23.43em) {	
+	.circleWhite{
+		padding: 17px 0 10px;
+	}
+	div.teamLogo{
+		width: 60px;
+		height: 60px;
+	}
+}
+
+
+/* Iphone 6+ */
+@media only screen and (min-width: 25.875em) {	
+	div.teamLogo{
+		width: 70px;
+		height: 70px;
+	}
+}
+
+/* min-width 960px, medium screens ipad */
+@media only screen and (min-width: 46em) {	
+
+	.fixedHeight{
+		height: 150px;
+	}
+
+
+	div.mediem_team_logo{
+		width: 120px;
+		height: 120px;
+	}
+
+	.noTicketTeamName{
+		font-size: 50px;
+		line-height: 114px;
+	}
+
+	.noticketTitle{
+		font-size: 28px;
+	}
+
+	.myRadio{
+		position: relative;
+	    top: 0;
+	}
+
+
+	ul.ticketList{
+		height: 114px;
+	}
+
+	ul.ticketList li{
+		height: 33.33333%;
+		margin-bottom: 2px
+	}
+
+	ul.ticketList li{
+		font-size: 19px;
+	}
+
+	ul.ticketList li > span{
+		margin-right: 30px;
+	    line-height: 40px;
+	}
+
+
+	.page_four_info1{
+		font-size: 40px;
+	}
+	.page_four_info2{
+		font-size: 35px;
+		line-height: 110%;
+	}
+	.marginRight{
+		margin-right: 20px;
+	}
+	.pinkBg{
+		background: url("../images/output/PremiumLeagueLogoTiny.png") center 3px no-repeat #e40053;
+		height: 30px;
+	}
+
+	.circleWhite{
+		width: 120px;
+		height: 120px;
+		padding: 20px 0 0;
+	}
+
+	.teamNm{
+		font-size: 20px;
+	}
+
+	div.teamLogo{
+		width: 80px;
+		height: 80px;
+	}
+
+	.marginTop{
+		margin-top:20px;
+	}
+
+	.teamList > li{
+		width: 20%;
+	}
+
+	.genealWrapper{
+		padding: 40px 4%;
+	}
+
+	a.addressText{
+		display: inline-block;
+	}
+
+	.emailIcon{
+		width: 26px;
+		height: 26px;
+	}
+
+	.emailWrapper{
+	    bottom: 22px;
+	    left: 31px;
+	}
+
+	.footer{
+		height: 70px;
+	}
+	.plLogo{
+		background: url("../images/output/PremiumLeagueLogo.png") 0 0 no-repeat transparent;
+		width: 265px;
+	}
+
+	.splash{
+		background: url("../images/output/splash.png") 0 0 no-repeat transparent;
+		width: 264px;
+		height: 54px;
+		position: fixed;
+	    bottom: 4px;
+	    right: 0px;
+	}
+
+
+
+	.roundButton{
+		font-size: 20px;
+	    width: 200px;
+	     padding: 0.5rem 1rem .5rem 1rem;
+	}
+
+	.fieldLabel.marginTop{
+		margin-top: 30px !important;
+	}
+
+	input[type="text"].roundTextField{
+		height: 53px;
+		font-size: 20px;
+		padding-left: 20px;
+	}
+	.attendeeForm input[type="text"].roundTextField{
+		margin: 0;
+		width: 88%;
+	}
+
+	.fieldLabel{
+		font-size: 25px;
+		
+	}
+
+	.centeredArea{
+		margin:190px auto 100px;
+		text-align: center;
+	}
+
+	.formTitle{
+		font-size: 50px;
+	}
+	.stepTitle{
+		font-size: 40px;
+	}
+	.donationTitle{
+		font-size: 35px;
+	}
+	.formCaption{
+		font-size: 25px;
+		line-height: 100%;
+	}
+
+	.headerLogo{
+		width: 465px;
+		height: 112px;
+	}
+
+	.header{
+		height: 150px;
+	}
+
+	.ticketTrackWrapper{
+		width: 1200px;
+	}
+	.noTicketWrapper,.attendeeForm,.confirmPost,.ticketTrackWrapper,{
+		width: 82%;
+	}
+	.confirmationWrapper,.optWrapper{
+		width: 70%;
+	}
+	.donationPost,.contactFrom{
+		width: 60%;
+	}
+
+	.content{
+		background: url("../images/output/bg.jpg") center top no-repeat #482583;
+		width: 100%;
+		height: 100%;
+		min-height: 911px;
+		background-size: inherit;
+	}
+
+	.centeredArea{
+		margin:120px auto 100px;
+	}
+
+}
+
+/* large screen with 1025px */
+@media only screen and (min-width: 64.063em){ 
+
+
+}
+
+/* min-width 1441px, xlarge screens */
+@media only screen and (min-width: 90.063em) and (max-width: 120em) { } /* min-width 1441px and max-width 1920px, use when QAing xlarge screen-only issues */
+
+/* XXLarge screens */
+@media only screen and (min-width: 120.063em) { 
+
+} /* min-width 1921px, xxlarge screens */
+
