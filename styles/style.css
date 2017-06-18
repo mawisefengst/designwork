@@ -48,10 +48,6 @@ a,a:hover{
 	font-size: 14px;
 	line-height: 100%;
 }
-.centerDiv{
-	width: 75%;
-	margin: 0 auto;
-}
 
 .marginTop{
 	margin-top:10px;
@@ -163,12 +159,6 @@ a,a:hover{
     border-bottom: 1px solid #ffffff;
 }
 
-.attendeeForm .roundButton{
-	margin: 60px 0 0 33px;
-    float: left;
-    width: 53%;
-}
-
 input[type="checkbox"]{
 	margin: 0;
 }
@@ -176,8 +166,7 @@ input[type="checkbox"]{
 .myCheckbox{
 	display: inline-block;
 	margin-top: 4px;
-	position: relative;
-	top:40px;
+	font-size: 11px;
 }
 
 .myCheckbox input {
@@ -194,7 +183,8 @@ input[type="checkbox"]{
     display: block;
     background: url("../images/output/checkbox_2.png") 0 bottom no-repeat transparent;
     float: left;
-    margin-right: 5px
+    margin-right: 10px;
+    margin-bottom: 10px;
 }
 
 .myCheckbox input:checked + span {
@@ -208,88 +198,19 @@ label.plfont{
 	margin-top: 10px;
 }
 
-.confirmPostInfo{
-	font-size: 27px;
-}
-
-
-
-.confirmPost .roundButton{
-    padding: 1rem 1rem 1rem 1rem;
-    margin-right: 28px;
-}
-.roundButton.large{
-	padding: 1rem 1rem 1rem 1rem;
-}
-
-.confirmationWrapper div.mediem_team_logo{
-	width: 80px;
-	height: 80px;
-}
-
-.confirmationWrapper ul.ticketList{
-	height: 80px;
-}
-
-.confirmationWrapper  ul.ticketList li{
-	height: 100%;
-}
-
-.confirmationWrapper  ul.ticketList li,
-.confirmationWrapper  ul.ticketList li > span{
-	line-height: 80px;
-}
-.confirmationWrapper  .whiteBg{
-	padding: 15px 0;
-}
-.confirmationWrapper  .myRadio{
-	margin-top: 20px;
-}
-.confirmationWrapper  .myRadio span{
-	background-position: 0 bottom;
-}
-
-.matchLogo{
-	width: 360px;
-    height: 165px;
-    display: block;
-    background: url(../images/output/Match_logo.png) 0 0 no-repeat transparent;
-    background-size: 363px auto;
-    margin: 0 auto;
-}
 .singleCadbury{
 	width: 119px;
 }
 
-.marginTopLarge{
-	margin-top: 100px !important;
-}
-
-
 .marginTopMedium{
-	margin-top: 40px !important;
+	margin-top: 30px !important;
 }
 
 .confirmBtnWrapper{
 	margin-top: 100px !important;
 }
 
-.plStar{
-	width: 267px;
-    height: 234px;
-    display: block;
-    background: url(../images/output/PremiumLeagueLogo_Star.png) 0 0 no-repeat transparent;
-    background-size: 267px auto;
-    float: right;
-}
-.productImg{
-    width: 100%;
-    height: 545px;
-    display: block;
-    background: url(../images/output/product.png) 0 65% no-repeat transparent;
-    background-size: 100% auto;
-    float: right;
-}
+
 .fixedWidth{
 	width: 75%;
 	margin-left: auto;
@@ -297,15 +218,15 @@ label.plfont{
 }
 
 .content{
-	background: url("../images/output/bg_mobile.jpg") center 0 no-repeat transparent;
+	background: url("../images/output/bg_mobile.jpg") center 0 no-repeat #482583;
 	width: 100%;
 	height: 100%;
 	background-size: auto 100%;
 }
 
-.contactFrom,.ticketTrackWrapper,.noTicketWrapper{
+/*.contactFrom,.ticketTrackWrapper,.noTicketWrapper,.attendeeForm,.confirmPost,.confirmationWrapper{
 	width: 90%;
-}
+*/
 
 .headerLogo{
     background: url(../images/output/Cadbury_FC_Match_Logo.png) 0 0 no-repeat transparent;
@@ -356,7 +277,7 @@ input[type="text"].roundTextField{
 }
 .attendeeForm input[type="text"].roundTextField{
 	margin: 0;
-	width: 88%;
+	width: 97%;
 }
 .fieldLabel.marginTop{
 	margin-top: 15px !important;
@@ -366,7 +287,7 @@ input[type="text"].roundTextField{
     font-size: 16px;
     background: transparent;
     border: 3px solid #ffffff;
-    width: 160px;
+    width: 60%;
     padding: 0.25rem 1rem .25rem 1rem;
 }
 .roundButton:hover{
@@ -394,7 +315,7 @@ input[type="text"].roundTextField{
     width: 157px;
     height: 32px;
     position: fixed;
-    bottom: 4px;
+    bottom: 2px;
     right: -1px;
     background-size: contain;
 }
@@ -405,7 +326,7 @@ input[type="text"].roundTextField{
 	position: fixed;
 	bottom:0;
 	left: 0;
-	border-bottom:4px solid #ffffff;
+	border-bottom:2px solid #ffffff;
 }
 .emailWrapper{
 	position: fixed;
@@ -428,6 +349,7 @@ a.addressText{
 .genealWrapper{
 	text-align: center;
 	padding: 20px 0% 10px;
+	width: 90%;
 }
 /* page 2 */
 .teamList > li{
@@ -491,12 +413,12 @@ ul.ticketList{
 }
 
 ul.ticketList li{
-	font-size: 11px;
+	font-size: 10px;
 	text-align: left;
 	height: inherit;
 	width: 95%;
-	padding-left: 5%;
 	float: left;
+	padding-left: 5%;
 }
 
 ul.ticketList li > span{
@@ -530,6 +452,51 @@ div.mediem_team_logo{
 	height: 90px;
 }
 
+.confirmPostInfo{
+	font-size: 15px;
+}
+
+
+.roundButton.large{
+	padding: 0.25rem 1rem 0.25rem 1rem;
+	font-size: 1rem;
+}
+
+.matchLogo{
+	width: 80%;
+    height: 105px;
+    display: block;
+    background: url(../images/output/Match_logo.png) center 0 no-repeat transparent;
+    background-size: 80% auto;
+    margin: 0 auto;
+}
+
+
+.confirmationWrapper  .myRadio span{
+	background-position: 0 bottom;
+}
+
+.marginTopLarge{
+	margin-top: 40px !important;
+}
+
+.plStar{
+	width: 90%;
+    height: 190px;
+    display: block;
+    background: url(../images/output/PremiumLeagueLogo_Star.png) center 0 no-repeat transparent;
+    background-size: 90% auto;
+    margin:0 auto;
+}
+
+.productImg{
+    width: 100%;
+    height: 245px;
+    display: block;
+    background: url(../images/output/product.png) 0 65% no-repeat transparent;
+    background-size: 100% auto;
+    float: right;
+}
 
 /* Iphone 6 */
 @media only screen and (min-width: 23.43em) {	
@@ -551,8 +518,102 @@ div.mediem_team_logo{
 	}
 }
 
-/* min-width 960px, medium screens ipad */
+
+/* min-width 768px, medium screens ipad */
 @media only screen and (min-width: 46em) {	
+
+
+
+	.content{
+		background-size: inherit;
+	}
+
+	ul.ticketList li > span.teamInfo{
+		display: initial;
+    	float: inherit;
+	}
+
+	.productImg{
+	    width: 100%;
+	    height: 545px;
+	    display: block;
+	    background: url(../images/output/product.png) 0 65% no-repeat transparent;
+	    background-size: 100% auto;
+	    float: right;
+	}
+
+
+	ul.ticketList li{
+		font-size: 10px
+	}
+
+	.confirmationWrapper div.mediem_team_logo{
+		width: 80px;
+		height: 80px;
+	}
+
+	.confirmationWrapper ul.ticketList{
+		height: 78px;
+	}
+
+	.confirmationWrapper  ul.ticketList li{
+		height: 100%;
+	}
+
+	.confirmationWrapper  ul.ticketList li,
+	.confirmationWrapper  ul.ticketList li > span{
+		line-height: 80px;
+	}
+	.confirmationWrapper  .whiteBg{
+		padding: 15px 0;
+	}
+	.confirmationWrapper  .myRadio{
+		margin-top: 20px;
+	}
+
+	.matchLogo{
+		width: 360px;
+	    height: 165px;
+	    display: block;
+	    background: url(../images/output/Match_logo.png) 0 0 no-repeat transparent;
+	    background-size: 363px auto;
+	    margin: 0 auto;
+	}
+
+	.roundButton.large{
+		padding: 1rem 1rem 1rem 1rem;
+	}
+
+	.confirmPost .roundButton{
+	    padding: 1rem 1rem 1rem 1rem;
+	    margin-right: 28px;
+	}
+
+	.confirmPostInfo{
+		font-size: 20px;
+	}
+
+	.myCheckbox{
+		position: relative;
+		top:40px;
+		font-size: 16px;
+	}
+
+	.attendeeForm input[type="text"].roundTextField{
+		width: 88%;
+	}
+
+	.roundButton{
+		width: 160px;
+	}
+
+	.splash{
+		bottom: 4px;
+	}
+
+	.footer{
+		border-bottom:4px solid #ffffff;
+	}
 
 	.fixedHeight{
 		height: 150px;
@@ -564,47 +625,22 @@ div.mediem_team_logo{
 		height: 120px;
 	}
 
-	.noTicketTeamName{
-		font-size: 50px;
-		line-height: 114px;
-	}
-
-	.noticketTitle{
-		font-size: 28px;
-	}
-
 	.myRadio{
 		position: relative;
 	    top: 0;
 	}
 
-
+ 
 	ul.ticketList{
 		height: 114px;
 	}
 
 	ul.ticketList li{
 		height: 33.33333%;
-		margin-bottom: 2px
+		margin-bottom: 2px;
+		padding-left: 0;
 	}
-
-	ul.ticketList li{
-		font-size: 19px;
-	}
-
-	ul.ticketList li > span{
-		margin-right: 30px;
-	    line-height: 40px;
-	}
-
-
-	.page_four_info1{
-		font-size: 40px;
-	}
-	.page_four_info2{
-		font-size: 35px;
-		line-height: 110%;
-	}
+	
 	.marginRight{
 		margin-right: 20px;
 	}
@@ -637,11 +673,8 @@ div.mediem_team_logo{
 	}
 
 	.genealWrapper{
-		padding: 40px 4%;
-	}
-
-	a.addressText{
-		display: inline-block;
+		width: inherit;
+		padding: 40px 1%;
 	}
 
 	.emailIcon{
@@ -657,21 +690,17 @@ div.mediem_team_logo{
 	.footer{
 		height: 70px;
 	}
+
 	.plLogo{
 		background: url("../images/output/PremiumLeagueLogo.png") 0 0 no-repeat transparent;
 		width: 265px;
+		height: 51px;
+		margin-left: -132px;
 	}
 
 	.splash{
-		background: url("../images/output/splash.png") 0 0 no-repeat transparent;
-		width: 264px;
-		height: 54px;
-		position: fixed;
-	    bottom: 4px;
-	    right: 0px;
+	    bottom: 2px;
 	}
-
-
 
 	.roundButton{
 		font-size: 20px;
@@ -684,7 +713,7 @@ div.mediem_team_logo{
 	}
 
 	input[type="text"].roundTextField{
-		height: 53px;
+		height: 43px;
 		font-size: 20px;
 		padding-left: 20px;
 	}
@@ -693,15 +722,220 @@ div.mediem_team_logo{
 		width: 88%;
 	}
 
-	.fieldLabel{
-		font-size: 25px;
-		
-	}
-
 	.centeredArea{
 		margin:190px auto 100px;
 		text-align: center;
 	}
+
+	.formTitle{
+		font-size: 40px;
+	}
+	.stepTitle{
+		font-size: 30px;
+	}
+	.donationTitle{
+		font-size: 25px;
+	}
+	.formCaption{
+		font-size: 20px;
+		line-height: 100%;
+	}
+
+	.headerLogo{
+		width: 465px;
+		height: 112px;
+	}
+
+	.header{
+		height: 150px;
+	}
+
+	.myCheckbox,.nextBtn{
+		display: inline-block;
+	}
+
+	.donationPost,.contactFrom{
+		width: 80%;
+	}
+
+	.page_four_info1{
+		font-size: 30px;
+	}
+	.page_four_info2{
+		font-size: 25px;
+		line-height: 110%;
+	}
+
+	ul.ticketList li{
+		font-size: 14px;
+	}
+
+	.noticketTitle{
+		font-size: 23px;
+	}
+
+	.noTicketTeamName{
+		font-size: 40px;
+		line-height: 114px;
+	}
+
+	.noTicketWrapper,
+	.confirmPost,
+	.ticketTrackWrapper{
+		width: 82%;
+	}
+
+	.attendeeForm{
+		width:82%;
+	}
+
+	 .attendeeForm .roundButton{
+		margin-top: 60px;
+	}
+
+	.fieldLabel{
+		font-size: 20px;
+	}
+
+	.confirmationWrapper,
+	.optWrapper{
+		width: 80%;
+	}
+
+	ul.ticketList li > span{
+		margin-right: 15px;
+	    line-height: 40px;
+	}
+
+	 .plStar{
+		width: 267px;
+	    height: 234px;
+	    display: block;
+	    background: url(../images/output/PremiumLeagueLogo_Star.png) 0 0 no-repeat transparent;
+	    background-size: 267px auto;
+	 }
+
+}
+
+/* large screen with 1024px */
+@media only screen and (min-width: 64em){ 
+    
+    .content{
+		background: url("../images/output/bg.jpg") center 0 no-repeat #482583;
+		width: 100%;
+		height: 100%;
+		background-size: auto 100%;
+	}
+
+	.content.longBg{
+		background-size: auto 100%;
+	}
+
+    .noTicketTeamName{
+		font-size: 40px;
+		line-height: 114px;
+	}
+
+	.marginTopMedium{
+		margin-top: 40px !important;
+	}
+
+	.confirmPostInfo{
+		font-size: 27px;
+	}
+
+    .plStar{
+
+	    float: right;
+	}
+
+	.marginTopLarge{
+		margin-top: 100px !important;
+	}
+
+    ul.ticketList li > span{
+		margin-right: 10px;
+	    line-height: 40px;
+	}
+
+
+    .confirmationWrapper,
+	.optWrapper{
+		width: 70%;
+	}
+
+    .confirmPost .roundButton{
+		margin-right: auto;
+		margin-left: auto;
+		display: block;
+	}
+
+    .myCheckbox{
+		font-size: 13px;
+	}
+
+    .fieldLabel{
+		font-size: 25px;
+	}
+
+    input[type="text"].roundTextField{
+		height: 53px;
+	}
+
+    .attendeeForm .roundButton{
+		margin: 60px 0 0 33px;
+	    width: 53%;
+	    float: left;
+	}
+
+	.noTicketTeamName{
+		font-size: 50px;
+		line-height: 114px;
+	}
+
+	.noticketTitle{
+		font-size: 25px;
+	}
+
+	ul.ticketList li{
+		font-size: 18px;
+	}
+
+	.page_four_info1{
+		font-size: 40px;
+	}
+	.page_four_info2{
+		font-size: 25px;
+		line-height: 110%;
+	}
+
+	a.addressText{
+		display: inline-block;
+	}
+
+	.contactFrom{
+		width: 34em;
+	}
+
+	.donationPost,{
+		width: 50em;
+	}
+
+	.noTicketWrapper,
+	.confirmPost,
+	.ticketTrackWrapper{
+		width: 55em
+	}
+
+	.attendeeForm{
+		width: 60em
+	}
+
+	.confirmationWrapper,
+	.optWrapper{
+		width: 50em;
+	}
+
 
 	.formTitle{
 		font-size: 50px;
@@ -717,47 +951,21 @@ div.mediem_team_logo{
 		line-height: 100%;
 	}
 
-	.headerLogo{
-		width: 465px;
-		height: 112px;
-	}
-
-	.header{
-		height: 150px;
-	}
-
-	.ticketTrackWrapper{
-		width: 1200px;
-	}
-	.noTicketWrapper,.attendeeForm,.confirmPost,.ticketTrackWrapper,{
-		width: 82%;
-	}
-	.confirmationWrapper,.optWrapper{
-		width: 70%;
-	}
-	.donationPost,.contactFrom{
-		width: 60%;
-	}
-
-	.content{
-		background: url("../images/output/bg.jpg") center top no-repeat #482583;
-		width: 100%;
-		height: 100%;
-		min-height: 911px;
-		background-size: inherit;
-	}
-
-	.centeredArea{
-		margin:120px auto 100px;
-	}
-
 }
 
-/* large screen with 1025px */
-@media only screen and (min-width: 64.063em){ 
+@media only screen and (min-width: 64.0625em) {
+    .bottom_aligner {
+	    display: inline-block;
+	    height: 56%;
+	    vertical-align: bottom;
+	    width: 1%;
+	}
 
-
+		.desktopFixedHeight{
+		height: 517px;
+	}
 }
+
 
 /* min-width 1441px, xlarge screens */
 @media only screen and (min-width: 90.063em) and (max-width: 120em) { } /* min-width 1441px and max-width 1920px, use when QAing xlarge screen-only issues */
