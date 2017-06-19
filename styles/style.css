@@ -222,6 +222,7 @@ label.plfont{
 	width: 100%;
 	height: 100%;
 	background-size: auto 100%;
+	min-height: 687px;
 }
 
 /*.contactFrom,.ticketTrackWrapper,.noTicketWrapper,.attendeeForm,.confirmPost,.confirmationWrapper{
@@ -522,10 +523,18 @@ div.mediem_team_logo{
 /* min-width 768px, medium screens ipad */
 @media only screen and (min-width: 46em) {	
 
-
-
 	.content{
 		background-size: inherit;
+	}
+
+    .confirmPost .roundButton{
+		margin-right: auto;
+		margin-left: auto;
+		display: block;
+	}
+
+	.content.longBg{
+		background-size: auto 100%;
 	}
 
 	ul.ticketList li > span.teamInfo{
@@ -638,7 +647,7 @@ div.mediem_team_logo{
 	ul.ticketList li{
 		height: 33.33333%;
 		margin-bottom: 2px;
-		padding-left: 0;
+		padding-left:3%;
 	}
 	
 	.marginRight{
@@ -755,7 +764,7 @@ div.mediem_team_logo{
 	}
 
 	.donationPost,.contactFrom{
-		width: 80%;
+		width: 70%;
 	}
 
 	.page_four_info1{
@@ -803,7 +812,7 @@ div.mediem_team_logo{
 	}
 
 	ul.ticketList li > span{
-		margin-right: 15px;
+		margin-right: 12px;
 	    line-height: 40px;
 	}
 
@@ -819,7 +828,13 @@ div.mediem_team_logo{
 
 /* large screen with 1024px */
 @media only screen and (min-width: 64em){ 
-    
+    	
+    .confirmPost .roundButton{
+		margin-right: 28px;
+	    margin-left: inherit;
+	    display: inline-block;
+	}
+
     .content{
 		background: url("../images/output/bg.jpg") center 0 no-repeat #482583;
 		width: 100%;
@@ -850,7 +865,7 @@ div.mediem_team_logo{
 	}
 
 	.marginTopLarge{
-		margin-top: 100px !important;
+		margin-top: 105px !important;
 	}
 
     ul.ticketList li > span{
@@ -864,11 +879,7 @@ div.mediem_team_logo{
 		width: 70%;
 	}
 
-    .confirmPost .roundButton{
-		margin-right: auto;
-		margin-left: auto;
-		display: block;
-	}
+
 
     .myCheckbox{
 		font-size: 13px;
@@ -917,13 +928,13 @@ div.mediem_team_logo{
 		width: 34em;
 	}
 
-	.donationPost,{
-		width: 50em;
+	.donationPost{
+		width: 48em;
 	}
 
 	.noTicketWrapper,
 	.confirmPost,
-	.ticketTrackWrapper{
+	.ticketTrackWrapper,{
 		width: 55em
 	}
 
@@ -967,8 +978,13 @@ div.mediem_team_logo{
 }
 
 
-/* min-width 1441px, xlarge screens */
-@media only screen and (min-width: 90.063em) and (max-width: 120em) { } /* min-width 1441px and max-width 1920px, use when QAing xlarge screen-only issues */
+/* min-width 1540px, xlarge screens */
+@media only screen and (min-width: 96.25em) { 
+ 	.content{
+		background-size: cover;
+	}
+
+} /* min-width 1441px and max-width 1920px, use when QAing xlarge screen-only issues */
 
 /* XXLarge screens */
 @media only screen and (min-width: 120.063em) { 
