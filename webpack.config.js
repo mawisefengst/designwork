@@ -22,7 +22,7 @@ module.exports = {
             ]
           },
           {
-              test: /\.(jpe?g|png|gif|svg)$/i,
+              test: /\.(jpe?g|png|gif)$/i,
               use: [
                   {
                     loader: 'file-loader',
@@ -34,7 +34,7 @@ module.exports = {
                   }]
           },
           {
-            test: /\.(eot|svg|ttf|woff|woff2)$/,
+            test: /\.(eot|ttf|woff|woff2)$/,
             use: [
                   {
                     loader: 'file-loader',
